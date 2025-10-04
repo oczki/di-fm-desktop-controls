@@ -7,7 +7,7 @@ difmAppExe  := "brave.exe"
 difmAppPath := "C:\Program Files\BraveSoftware\Brave-Browser\Application\chrome_proxy.exe"
 difmAppArgs := "--profile-directory=Default --app-id=hkmmhjbfkcoebffpjoijaejomhndkkec"
 difmWinClass := "Chrome_WidgetWin_1"
-difmWinTitle := "di.fm"
+difmWinTitle := "di.fm - "
 difmWinWidth := 680
 difmWinHeight := 106
 difmDoubleKeyDelayMs := 300
