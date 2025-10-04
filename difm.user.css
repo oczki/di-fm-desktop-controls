@@ -1,0 +1,36 @@
+/* ==UserStyle==
+@name           di.fm compact mode
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Hide unnecessary elements when di.fm's window is very small
+@author         fri
+==/UserStyle== */
+
+@-moz-document domain("di.fm") {
+  @media (height <= 128px) {
+    body {
+      overflow: hidden;
+    }
+
+    #page-wrap {
+      padding-top: 0;
+    }
+    
+    [data-mobile-nav-region],
+    #main-header,
+    #persistent-messaging-region,
+    .social-region,
+    .settings-region {
+      display: none;
+    }
+    
+    #webplayer-region .track-region {
+      right: 0;
+      margin-right: 0;
+      
+      .actions-container {
+        width: 48px;
+      }
+    }
+  }
+}
